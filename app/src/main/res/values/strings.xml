@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Routes</string>
+
+    <!--activity_route_input-->
+    <string name="selected_place.Activity_route_input">Selected Place:</string>
+    <string name="enter_place_here.Activity_route_input">Enter Address Here</string>
+    <string name="addressString.Activity_route_input">Address</string>
+    <string name="phone.Activity_route_input">Phone</string>
+    <string name="add.Activity_route_input">Add</string>
+    <string name="submit_route.Activity_route_input">Submit route</string>
+    <string name="list_size.Activity_route_input">List size:</string>
+    <string name="enter_route_code_here.Activity_route_input">Enter route code here</string>
+    <string name="get_route.Activity_route_input">Get Route</string>
+
+    <!--list_item_drive-->
+    <string name="street.list_travel_information">Street</string>
+    <string name="city.list_travel_information">city</string>
+    <string name="distance.list_travel_information">distance</string>
+    <string name="position.list_travel_information">1</string>
+    <string name="duration.list_travel_information">duration</string>
+    <string name="arrival_time.list_travel_information">arrival time</string>
+    <string name="invalid_address.invalid_addresses">invalid addressString</string>
+    <string name="private.activity_route">Private:</string>
+    <string name="business.activity_route">Business:</string>
+    <string name="estimated_finish_time.activity_route">estimated finish time</string>
+    <string name="addressType.list_travel_information">addressType</string>
+    <string name="goBtn.list_travel_information">goBtn</string>
+    <string name="no.activity_address_detail">No</string>
+    <string name="business.activity_address_details">Business: </string>
+    <string name="city.activity_address_details">city</string>
+    <string name="postcode.activity_address_details">postcode</string>
+    <string name="street.activity_address_details">street</string>
+    <string name="googleSearchBtn.activity_address_details">googleSearchBtn</string>
+    <string name="addressType.activity_address_details">addressType</string>
+    <string name="employee_name.comment">employee name</string>
+    <string name="date.comment">date</string>
+    <string name="comments.comment">comments</string>
+    <string name="employee_name.activity_comment_display">employee name</string>
+    <string name="date.activity_comment_display">date</string>
+    <string name="comment.activity_comment_display">comment</string>
+    <string name="cancel.reform_address_dialog">Cancel</string>
+    <string name="change.reform_address_dialog">Change</string>
+    <string name="addressString.reform_address_dialog">Address</string>
+    <string name="correct_the_address.reform_address_dialog">Correct the addressString</string>
+    <string name="networkOperation.addressDetailsActivity">Fetching addressString information…</string>
+    <string name="route_status.activity_route_state">Fetching route state…</string>
+    <string name="retry.activity_route_state">Retry</string>
+    <string name="write_a_comment_here.activity_comment_input">Write a comment here</string>
+    <string name="add_comment.activity_comment_input">add comment</string>
+    <string name="submit_addresses.activity_correct_invalid_addresses">Submit addresses</string>
+    <string name="this_addresses_are_invalid_here_you_can_remove_then_from_the_route_or_correct_them.activity_correct_invalid_addresses">This addresses are invalid. Here you can remove then from the route or correct them.</string>
+    <string name="employee_name.activity_comment_input">employee name</string>
+    <string name="date.activity_comment_input">date</string>
+
+    <string name="devider">/</string>
+    <string name="completionEnd">delivered</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+
+</resources>
