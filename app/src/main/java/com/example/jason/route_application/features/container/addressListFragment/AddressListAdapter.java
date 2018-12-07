@@ -35,7 +35,7 @@ public class AddressListAdapter extends RecyclerView.Adapter<AddressListAdapter.
     private AdapterCallback callback;
     private Context context;
 
-    AddressListAdapter(AdapterCallback callback, List<Address> addressList) {
+    public AddressListAdapter(AdapterCallback callback, List<Address> addressList) {
         this.addressList = addressList;
         this.callback = callback;
     }

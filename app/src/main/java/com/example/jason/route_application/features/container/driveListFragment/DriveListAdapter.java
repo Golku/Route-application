@@ -42,11 +42,11 @@ public class DriveListAdapter extends RecyclerView.Adapter<DriveListAdapter.Cust
         void completeDrive(Drive drive);
     }
 
-    public void addContext(Context context){
+    void addContext(Context context){
         this.context = context;
     }
 
-    public void addTouchHelper(RecyclerView recyclerView){
+    void addTouchHelper(RecyclerView recyclerView){
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
         itemTouchHelper.attachToRecyclerView(recyclerView);
     }

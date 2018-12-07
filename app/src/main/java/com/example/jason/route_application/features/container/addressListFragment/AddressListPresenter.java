@@ -1,5 +1,7 @@
 package com.example.jason.route_application.features.container.addressListFragment;
 
+import com.example.jason.route_application.data.models.AddressListHandler;
+import com.example.jason.route_application.data.models.DriveListHandler;
 import com.example.jason.route_application.data.pojos.Address;
 import com.example.jason.route_application.data.pojos.Event;
 import com.example.jason.route_application.data.pojos.api.ChangeAddressRequest;
@@ -19,24 +21,16 @@ public class AddressListPresenter extends BasePresenter implements
 
     private MvpAddressList.View view;
 
-    private List<Address> addressList;
-    private AddressListAdapter adapter;
-
-    private boolean newAddress;
-    private int changeAddressPosition;
-
-    private int deletedItemPosition;
-    private Address deletedAddress;
+    private AddressListHandler listHandler;
 
     AddressListPresenter(MvpAddressList.View view, List<Address> addressList) {
         this.view = view;
-        this.addressList = addressList;
+        listHandler = new AddressListHandler(addressList, this);
     }
 
     @Override
     public void showAddressList() {
-        adapter = new AddressListAdapter(this, addressList);
-        view.setupAdapter(adapter);
+        view.setupAdapter(listHandler.getAdapter());
     }
 
     @Override
